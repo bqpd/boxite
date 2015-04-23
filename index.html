@@ -1,9 +1,7 @@
 <head>
-
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width" />
 
-<link rel="shortcut icon" href="favicon.ico">
 <link href="boxite/webfonts/junction.css" rel="stylesheet">
 <link href="boxite/normalize.css" rel="stylesheet">
 <link href="boxite/boxite.css" rel="stylesheet">
@@ -11,8 +9,15 @@
 <script src="boxite/jquery-1.11.2.min.js" type="text/javascript"></script>
 <script src="boxite/marked.js"></script>
 <script src="boxite/boxite.js"></script>
+
+<!-- Edit below to change where this site reads its content from -->
+<!-- Note that Dropbox shared links need to end with "?dl=1", not "?dl=0" -->
 <script src="index.js"></script>
 
+<!-- Edit below to customize your favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Edit below to customize your social-media previews -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="og:type"  content="website" />
 <meta name="twitter:title" content="Boxite">
@@ -26,9 +31,11 @@
 
 <body>
     <div id="header"></div>
-    <div id="lens" class="gradient">
+
+    <div id="overlay" class="gradient">
         <div id="title"></div>
     </div>
+
     <div id="page">
         <div id="content">
         </div>

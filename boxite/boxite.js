@@ -19,7 +19,7 @@ window.document.title = title;
 $("#title").html(header_title);
 $("#header").attr({style: "background-image: url("+interstitial.header.image+")"})
 if (interstitial.header.whitegradient) {
-    $("#lens").addClass("white");
+    $("#overlay").addClass("white");
     $("#title").addClass("white");
 }
 

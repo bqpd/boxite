@@ -79,7 +79,7 @@ hr { height: 0.5em;
      margin-top: 0.5em;
      background: black; }
 
-#lens { height: 28em;
+#overlay { height: 28em;
         width: 100%;
         padding-right: 0.5em; }
 
@@ -144,5 +144,5 @@ hr { height: 0.5em;
          padding-left: 3.5em; }
     #title { width: 14em;
              padding-top: 4.125em; }
-    #lens { height: 22em; }
+    #overlay { height: 22em; }
     #header { height: 22em; }                                     }

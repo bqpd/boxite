@@ -68,7 +68,7 @@ content: [
 
 "1. Move *index.js* from the hosting folder to the shared folder.\n"+
 "2. Copy the [sharable link](https://www.dropbox.com/en/help/167) for *index.js* to your clipboard.\n"+
-"3. Open the hosting folder's *index.html* in a text-editor. Select *\"index.js\"* on line 13 and replace it with the link from the previous step (keeping the quote marks).\n"+
+"3. Open the hosting folder's *index.html* in a text-editor. Select *\"index.js\"* on line 15 and replace it with the link from the previous step (keeping the quote marks).\n"+
 "4. The tags starting with *\"<meta name=\"* control previews on facebook and twitter: delete them, or edit them to create your own preview. (see compiling, below)",
 
 "## III. View and edit your website",

@@ -20,12 +20,21 @@ content: [
 
     "# Features",
 
-    "* Needs no new accounts\n* Edit without coding\n* Upload and caption new photos easily\n* [Markdown](http://daringfireball.net/projects/markdown/syntax) support in text blocks\n* Mobile-friendly design\n* Compiles to a static website (see below)",
+    "* Needs no new accounts\n"+
+    "* Edit without coding\n"+
+    "* Upload and caption new photos easily\n"+
+    "* [Markdown](http://daringfireball.net/projects/markdown/syntax) support\n"+
+    "* Mobile-friendly design\n"+
+    "* Compiles to a static website (see below)",
 
 
     "# Coming attractions",
 
-    "* Nav links (in the header and \"back to top\")\n* Slideshows\n* Template for listing team members\n* Smart diffs\n* Double-buffered updates",
+    "* Nav links (in the header and \"back to top\")\n"+
+    "* Simple slideshow template\n"+
+    "* Template for listing team members\n"+
+    "  * With homepage links this could form a distributed project network\n"+
+    "* Smart diffs and merges between multiple *index.js* files from different sources",
 
 
     "# Example sites",

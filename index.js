@@ -55,7 +55,7 @@ content: [
     "      * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n"+
     "    * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n"+
     "    * Delete the default files provided by KISSr.\n"+
-    "2. [Download boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place the contents of the *boxite* folder (*index.html*, *index.js*, and a folder called *boxite*) into the hosting folder.\n"+
+    "2. [Download boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place its contents (*index.html*, *index.js*, and a folder called *boxite*) into the hosting folder.\n"+
     "3. Elsewhere in Dropbox, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.",
 
     "## II. Move files ",

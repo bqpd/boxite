@@ -1,7 +1,7 @@
-<html><head>
+<head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Boxite</title>
+    <meta name="viewport" content="width=device-width" />
+    <title> </title>
 
     <link href="boxite/webfonts/junction.css" rel="stylesheet">
     <link href="boxite/normalize.css" rel="stylesheet">
@@ -15,67 +15,12 @@
 </head>
 
 <body>
-    <div id="header" style="background-image: url(https://www.dropbox.com/s/2pz926ljzz32b9m/IMG_4893.JPG?dl=1)"></div>
+    <div id="header"></div>
     <div id="lens" class="gradient">
-        <div id="title"><br><br>Boxite</div>
+        <div id="title"></div>
     </div>
     <div id="page">
         <div id="content">
-        <h1 id="-put-your-project-online-"><strong>put your project online</strong></h1>
-<p>Boxite lets you edit your site wherever it’s <em>convenient to collaborate</em> (Dropbox, Github, an MIT group locker).</p>
-<p>The website’s <em>hosting is separate from editing</em>: you can host anywhere, and the site will update instantly.</p>
-<p>This site is written in Boxite; changing it as as easy as <a href="https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js">editing a file like this one</a>.</p>
-<p>Boxite is <em>free and open source software</em>. <a href="https://github.com/bqpd/boxite/">Get the code</a>, or read on for install instructions.</p>
-<h1 id="features">Features</h1>
-<ul>
-<li>Needs no new accounts</li>
-<li>Edit without coding</li>
-<li>Upload and caption new photos easily</li>
-<li><a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> support in text blocks</li>
-<li>Mobile-friendly design</li>
-<li>Compiles to a static website (see below)</li>
-</ul>
-<h1 id="coming-attractions">Coming attractions</h1>
-<ul>
-<li>Nav links (in the header and “back to top”)</li>
-<li>Slideshows</li>
-<li>Template for listing team members</li>
-<li>Smart diffs</li>
-<li>Double-buffered updates</li>
-</ul>
-<h1 id="example-sites">Example sites</h1>
-<p></p><div class="project-outer" style="background-image: url(https://www.dropbox.com/sh/vtwtm7iefplbx21/AADWhjzxWO99Lc6ujWCwD-E3a/header.jpg?dl=1);"><div class="gradient"><div class="project-inner"><span class="place">Ghana</span><a href="http://pen.atu.red"><strong><span class="caption">Practical Education Network</span></strong></a><span class="date">2009 to present</span></div></div></div><div class="project-outer" style="background-image: url(https://www.dropbox.com/sh/y2qcnz62r75jei5/AACy4ASq9t9VaQs0Wwg9Zhw8a/draft.jpg?dl=1);"><div class="white gradient"><div class="project-inner"><span class="place">MIT</span><a href="http://puff.atu.red"><strong><span class="caption">Puffin Joystick</span></strong></a><span class="date">2015 to present</span></div></div></div><h1 id="installation-into-dropbox">Installation into Dropbox</h1>
-<h2 id="i-create-folders">I. Create folders</h2>
-<ol>
-<li>Create a new folder in your Dropbox “Public” folder. We’ll call this your “hosting” folder.<ul>
-<li>If you don’t have a “Public” folder, you can use <a href="https://www.kissr.com/">KISSr</a> to create a single domain for free.<ul>
-<li><a href="https://pages.github.com/">Github Pages</a> is better and cheaper for custom domains and multiple sites; see “other installations”, below.</li>
-</ul>
-</li>
-<li>Your hosting folder will then be at <em>Dropbox &gt; Apps &gt; KISSr &gt; (your chosen domain name)</em>.</li>
-<li>Delete the default files provided by KISSr.</li>
-</ul>
-</li>
-<li><a href="https://github.com/bqpd/boxite/archive/gh-pages.zip">Download Boxite</a> and place its contents (<em>index.html</em>, <em>index.js</em>, and a folder named <em>boxite</em>) into the hosting folder.</li>
-<li>Elsewhere in Dropbox, create a folder that’s <a href="https://www.dropbox.com/help/19?path=sharing_files_and_folders">shared with your team</a>. We’ll call this the “shared” folder.</li>
-</ol>
-<h2 id="ii-move-files">II. Move files</h2>
-<ol>
-<li>Move <em>index.js</em> from the hosting folder to the shared folder.</li>
-<li>Copy the <a href="https://www.dropbox.com/en/help/167">sharable link</a> for <em>index.js</em> to your clipboard.</li>
-<li>Open the hosting folder’s <em>index.html</em> in a text-editor. Select <em>REPLACE_ME</em> on line 13 and replace it with the link from the previous step.</li>
-</ol>
-<h2 id="iii-view-and-edit-your-website">III. View and edit your website</h2>
-<ol>
-<li>Open the <a href="https://www.dropbox.com/en/help/16">public link</a> to your hosting folder in the web browser.</li>
-<li>Edit the <em>index.js</em> file in the shared folder.</li>
-<li>Reload the page; your changes should appear immediately.</li>
-</ol>
-<h1 id="other-installations">Other installations</h1>
-<p>The above steps use Dropbox for both hosting and editing the site, while the <a href="http://box.obio.me">project page for boxite</a> uses <a href="https://pages.github.com/">Github Pages</a> for hosting. You can use any group- and web-accessible location for editing and any web-accessible location for hosting.</p>
-<h1 id="compiling-to-a-static-site">Compiling to a static site</h1>
-<p>To make your Boxite page load faster, you can “compile” it. To do this, go to your website and open your browser’s <a href="http://wickedlysmart.com/hfjsconsole/">developer console</a>. Right-click on the <em>html</em> element, select <em>Copy</em> or <em>Copy Outer HTML</em> (see screenshots below), and then save that as your <em>index.html</em>.</p>
-<p></p><div class="project-outer" style="background-image: url(https://www.dropbox.com/s/b5g15yzhkru94pw/chrom_compile.png?dl=1);"><div class="white gradient"><div class="project-inner"><strong><span class="caption">Chrome</span></strong></div></div></div><div class="project-outer" style="background-image: url(https://www.dropbox.com/s/bbt0diooog9fx01/ff_compile.png?dl=1);"><div class="gradient"><div class="project-inner"><strong><span class="caption">Firefox</span></strong></div></div></div><div id="content-footer"></div></div>
+        </div>
     </div>
-
-</body></html>
+</body>

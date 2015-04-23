@@ -14,6 +14,9 @@ h1 { font-size: 1.5em;
      margin-top: 1.5em;
      font-weight: 400; }
 
+h1:first-child { margin-top: 0; }
+p:first-child { margin-top: 0; }
+
 h2 { font-size: 1.25em;
      line-height: 1;
      margin: 0;
@@ -60,13 +63,13 @@ rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 66%, rgba(255,255,255,0.225) 75%, 
 
 #page { width: 100%;
         background: white;
-        margin-left: -2em;
-        padding-left: 2em;
-        padding-right: 2em; }
+        padding-right: 0.5em; }
 
 #content { max-width: 28em;
            margin: 0 auto;
-           padding: 1em;
+           padding-top: 1em;
+           padding-right: 1.5em;
+           padding-left: 1.5em;
            padding-bottom: 0;}
 
 hr { height: 0.5em;
@@ -78,9 +81,7 @@ hr { height: 0.5em;
 
 #lens { height: 28em;
         width: 100%;
-        margin-left: -2em;
-        padding-left: 2em;
-        padding-right: 2em; }
+        padding-right: 0.5em; }
 
 #title { height: 3em;
          width: 9.333em;
@@ -103,20 +104,9 @@ hr { height: 0.5em;
           left: 0;
           height: 28em;
           width: 100%;
-          background-size: cover;
+          padding-right: 0.5em;
+          background-size: cover;617 861
           background-position: center; }
-
-
-@media only screen and (min-width: 320px) and (max-width: 640px) {
-      #content { max-width: 42em; }
-      hr { margin-left: -2em;
-           padding-left: 2em;
-           padding-right: 2em; }
-      #title { width: 14em;
-               padding-top: 4.125em; }
-      #lens { height: 22em; }
-      #header { height: 22em; }                                  }
-
 
 .project-outer { position: relative;
                  height: 21em;
@@ -130,7 +120,7 @@ hr { height: 0.5em;
 
 .project-inner { position: absolute;
                  bottom: 0;
-                 padding: 1.5em;
+                 padding-left: 1.5em;
                  padding-right: 2em;
                  padding-bottom: 0.75em; }
 
@@ -147,3 +137,12 @@ hr { height: 0.5em;
          font-size: 0.75em;
          text-transform: uppercase;
          padding-right: 0.5em; } /* changed from 0.3 */
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+    #content { max-width: 42em; }
+    hr { margin-left: -1.5em;
+         padding-left: 3.5em; }
+    #title { width: 14em;
+             padding-top: 4.125em; }
+    #lens { height: 22em; }
+    #header { height: 22em; }                                     }

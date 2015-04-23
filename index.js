@@ -7,7 +7,7 @@ header: {
 
 content: [
 
-    "# put your project online",
+    "# **put your project online**",
 
     "Boxite lets you edit your site wherever it's *convenient to collaborate* (Dropbox, Github, an MIT group locker).",
 
@@ -48,14 +48,32 @@ content: [
 
     "# Installation into Dropbox",
 
-    "1. Create a new folder in your Dropbox \"Public\" folder. We'll call this your \"hosting\" folder.\n    * If you don't have a \"Public\" folder, you can use [KISSr](https://www.kissr.com/) to create a single domain for free.\n      * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n    * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n    * Delete the default files provided by KISSr.\n  2. [Download boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place the contents of the *boxite* folder (*index.html*, *index.js*, and a folder called *boxite*) into the hosting folder.\n  3. Elsewhere in Dropbox, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.\n  4. Move *index.js* from the hosting folder to the shared folder.\n  5. Copy the [sharable link](https://www.dropbox.com/en/help/167) for *index.js* to your clipboard.\n  6. Open the hosting folder's *index.html* in a text-editor. Select *REPLACE_ME* on line 13 and replace it with the link from step 5.",
+    "## I. Create folders",
 
-    "Open the [public link](https://www.dropbox.com/en/help/16) to your hosting folder in the web browser. Try editing the *index.js* file and reloading the page; your changes should appear immediately.",
+    "1. Create a new folder in your Dropbox \"Public\" folder. We'll call this your \"hosting\" folder.\n"+
+    "    * If you don't have a \"Public\" folder, you can use [KISSr](https://www.kissr.com/) to create a single domain for free.\n"+
+    "      * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n"+
+    "    * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n"+
+    "    * Delete the default files provided by KISSr.\n"+
+    "2. [Download boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place the contents of the *boxite* folder (*index.html*, *index.js*, and a folder called *boxite*) into the hosting folder.\n"+
+    "3. Elsewhere in Dropbox, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.",
+
+    "## II. Move files ",
+
+    "1. Move *index.js* from the hosting folder to the shared folder.\n"+
+    "2. Copy the [sharable link](https://www.dropbox.com/en/help/167) for *index.js* to your clipboard.\n"+
+    "3. Open the hosting folder's *index.html* in a text-editor. Select *REPLACE_ME* on line 13 and replace it with the link from the previous step.",
+
+    "## III. View and edit your website",
+
+    "1. Open the [public link](https://www.dropbox.com/en/help/16) to your hosting folder in the web browser.\n"+
+    "2. Edit the *index.js* file.\n"+
+    "3. Reload the page; your changes should appear immediately.",
 
 
     "# Other installations",
 
-    "The above steps use Dropbox for both hosting and editing the site, while the project page for boxite uses Github for both. You can use any group- and web-accessible location for editing and any web-accessible location for hosting.",
+    "The above steps use Dropbox for both hosting and editing the site, while the [project page for boxite](http://box.obio.me) uses [Github Pages](https://pages.github.com/) for hosting. You can use any group- and web-accessible location for editing and any web-accessible location for hosting.",
 
 
     "# Compiling to a static site",

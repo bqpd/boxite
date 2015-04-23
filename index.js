@@ -85,7 +85,7 @@ content: [
 
 "# Compiling to a static site",
 
-"To make your Boxite page load faster, you can \"compile\" it to a completely static site. This also creates automatic Twitter and Facebook previews.",
+"To make your Boxite page load faster, you can \"compile\" it to a completely static site. This also creates automatic twitter and facebook previews.",
 
 "To compile, go to your website and open your browser's [developer console](http://wickedlysmart.com/hfjsconsole/). Right-click on the *html* element, select *Copy* or *Copy Outer HTML* (see screenshots below), and then save that as your *index.html*.",
 

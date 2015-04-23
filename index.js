@@ -68,7 +68,8 @@ content: [
 
 "1. Move *index.js* from the hosting folder to the shared folder.\n"+
 "2. Copy the [sharable link](https://www.dropbox.com/en/help/167) for *index.js* to your clipboard.\n"+
-"3. Open the hosting folder's *index.html* in a text-editor. Select *\"index.js\"* on line 13 and replace it with the link from the previous step (keeping the quote marks).",
+"3. Open the hosting folder's *index.html* in a text-editor. Select *\"index.js\"* on line 13 and replace it with the link from the previous step (keeping the quote marks).\n"+
+"4. The tags starting with *\"<meta name=\"* control previews on facebook and twitter: delete them, or edit them to create your own preview. (see compiling, below)",
 
 "## III. View and edit your website",
 
@@ -84,7 +85,9 @@ content: [
 
 "# Compiling to a static site",
 
-"To make your Boxite page load faster, you can \"compile\" it. To do this, go to your website and open your browser's [developer console](http://wickedlysmart.com/hfjsconsole/). Right-click on the *html* element, select *Copy* or *Copy Outer HTML* (see screenshots below), and then save that as your *index.html*.",
+"To make your Boxite page load faster, you can \"compile\" it to a completely static site. This also creates automatic Twitter/Facebook previews.",
+
+"To compile, go to your website and open your browser's [developer console](http://wickedlysmart.com/hfjsconsole/). Right-click on the *html* element, select *Copy* or *Copy Outer HTML* (see screenshots below), and then save that as your *index.html*.",
 
 { image: "https://www.dropbox.com/s/b5g15yzhkru94pw/chrom_compile.png?dl=1",
   caption: 'Chrome',

@@ -25,6 +25,12 @@ if (interstitial.header.whitegradient) {
 
 $("#content").html("");
 
+$("head").append('\n<meta name="twitter:card" content="summary_large_image" />\n<meta property="og:type"  content="website" />')
+$("head").append('\n<meta property="twitter:title" content="'+title.replace(newlines, " ")+'" />')
+$("head").append('\n<meta property="og:title" content="'+title.replace(newlines, " ")+'" />')
+$("head").append('\n<meta property="twitter:image" content="'+interstitial.header.image+'" />')
+$("head").append('\n<meta property="og:image" content="'+interstitial.header.image+'" />')
+
 var lastwasimage = null;
 for (var i=0; i<interstitial.content.length; i++) {
     var block = interstitial.content[i];
@@ -52,5 +58,8 @@ for (var i=0; i<interstitial.content.length; i++) {
 }
 
 $("#content").append('<br><hr />')
+
+$("head").append('\n\n<meta property="twitter:description" content="'+$("#content p").text()+'" />')
+$("head").append('\n\n<meta property="og:description" content="'+$("#content p").text()+'" />')
 
 }) };

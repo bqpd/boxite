@@ -15,7 +15,7 @@ content: [
 
     "This site is written in Boxite; changing it is *[as easy as editing this file](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js)*.",
 
-    "Boxite is *free and open source software*. [Get the code](https://github.com/bqpd/boxite/), or read on for install instructions.",
+    "Boxite is *free and open source software*. [See the code](https://github.com/bqpd/boxite/), or read on for install instructions.",
 
 
     "# Features",

@@ -23,6 +23,8 @@ if (interstitial.header.whitegradient) {
     $("#title").addClass("white");
 }
 
+$("#content").html("");
+
 var lastwasimage = null;
 for (var i=0; i<interstitial.content.length; i++) {
     var block = interstitial.content[i];
@@ -30,8 +32,6 @@ for (var i=0; i<interstitial.content.length; i++) {
 
     if ($.type(block) === "string") {
             html = marked(block);
-            if (!lastwasimage === null)
-                html = "<p>"+html;
             lastwasimage = false;
     } else if ("image" in block) {
         var height = block.height ? "height: "+block.height+"; " : "";
@@ -54,6 +54,6 @@ for (var i=0; i<interstitial.content.length; i++) {
     $("#content").append(html);
 }
 
-$("#content").append('<div id="content-footer"></div>')
+$("#content").append('<br><hr />')
 
 }) };

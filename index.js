@@ -1,7 +1,7 @@
 boxite.compile({
 
 header: {
-  title: "boxite",
+  title: "Boxite",
   image: "https://www.dropbox.com/s/2pz926ljzz32b9m/IMG_4893.JPG?dl=1",
 },
 
@@ -13,7 +13,9 @@ content: [
 
     "The website's *hosting is separate from editing*: you can host anywhere, and the site will update instantly.",
 
-    "This site is written in boxite; changing it as as easy as [editing a file like this one](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js).",
+    "This site is written in Boxite; changing it as as easy as [editing a file like this one](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js).",
+
+    "Boxite is *free and open source software*. [Get the code](https://github.com/bqpd/boxite/), or read on for install instructions.",
 
 
     "# Features",
@@ -55,7 +57,7 @@ content: [
     "      * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n"+
     "    * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n"+
     "    * Delete the default files provided by KISSr.\n"+
-    "2. [Download boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place its contents (*index.html*, *index.js*, and a folder called *boxite*) into the hosting folder.\n"+
+    "2. [Download Boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place its contents (*index.html*, *index.js*, and a folder named *boxite*) into the hosting folder.\n"+
     "3. Elsewhere in Dropbox, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.",
 
     "## II. Move files ",

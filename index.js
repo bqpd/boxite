@@ -11,7 +11,7 @@ content: [
 
 "Boxite lets your team build a *portfolio, process, or documentation site* as part of your work, instead of as a final (and often-skipped) step.",
 
-"Boxite *separates a website's hosting and editing* so that you can host anywhere, make changes in a shared folder (such as Dropbox), and see your site instantly update.",
+"Boxite *separates a website's hosting and editing*. You can host anywhere, make changes in a shared folder (such as Dropbox or Slack), and see your site update instantly.",
 
 "This site is written in Boxite, so changing it is *[as easy as editing this file](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js)*.",
 
@@ -33,8 +33,8 @@ content: [
 "* Nav links (in the header and \"back to top\")\n"+
 "* Simple slideshow template\n"+
 "* Template for listing team members\n"+
-"  * With homepage links this could form a distributed project network\n"+
-"* Smart diffs and merges between multiple *index.js* files from different sources",
+"  * With homepage links we'd form a distributed project network\n"+
+"* Smart diffs and merges between multiple content files",
 
 
 "# Example sites",
@@ -80,7 +80,7 @@ content: [
 
 "# Other installations",
 
-"The above steps use Dropbox for both hosting and editing the site, while the [project page for boxite](http://box.obio.me) uses [Github Pages](https://pages.github.com/) for hosting. You can use any group- and web-accessible location for editing and any web-accessible location for hosting.",
+"The above steps use Dropbox for both hosting and editing the site, while the [project page for Boxite](http://box.obio.me) uses [Github Pages](https://pages.github.com/) for hosting. You can use any group- and web-accessible location for editing (such as Slack or an MIT group locker) and any web-accessible location for hosting.",
 
 
 "# Compiling to a static site",

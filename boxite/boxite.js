@@ -35,13 +35,11 @@ for (var i=0; i<interstitial.content.length; i++) {
             lastwasimage = false;
     } else if ("image" in block) {
         var height = block.height ? "height: "+block.height+"; " : "";
-        var caption = block.caption ? '<strong><span class="caption">'+block.caption+'</span></strong>' : "";
+        var caption = block.caption ? '<strong><span class="caption">'+marked(block.caption).slice(3,-5)+'</span></strong>' : "";
         var overlay = block.overlay ? block.overlay : "gradient";
-        var link = block.link ? '<a href="'+block.link+'">' : "";
-        var linkend = block.link ? '</a>' : "";
         var place = block.place ? '<span class="place">'+block.place+'</span>' : "";
         var date = block.date ? '<span class="date">'+block.date+'</span>' : "";
-        html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+place+link+caption+linkend+date+'</div></div></div>';
+        html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+place+caption+date+'</div></div></div>';
         if (!lastwasimage)
             html = "</p>"+html;
         lastwasimage = true;

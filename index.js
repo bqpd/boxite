@@ -41,8 +41,7 @@ content: [
 
     {
       image: "https://www.dropbox.com/sh/vtwtm7iefplbx21/AADWhjzxWO99Lc6ujWCwD-E3a/header.jpg?dl=1",
-      link: "http://pen.atu.red",
-      caption: 'Practical Education Network',
+      caption: '[Practical Education Network](http://pen.atu.red)',
       place: "Ghana",
       date: "2009 to present"
     },
@@ -50,8 +49,7 @@ content: [
     {
       image: "https://www.dropbox.com/sh/y2qcnz62r75jei5/AACy4ASq9t9VaQs0Wwg9Zhw8a/draft.jpg?dl=1",
       overlay: "white gradient",
-      link: "http://puff.atu.red",
-      caption: 'Puffin Joystick',
+      caption: '[Puffin Joystick](http://puff.atu.red)',
       place: "MIT",
       date: "2015 to present"
     },

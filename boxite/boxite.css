@@ -136,7 +136,9 @@ hr { height: 0.5em;
 
 .date::before { content: " / ";
                 font-weight: 400;
-                font-size: 1em; }
+                font-size: 1em;
+                padding-left: 0.375em;
+                padding-right: 0.125em; }
 
 .date { font-weight: 400;
         font-size: 0.66em; }

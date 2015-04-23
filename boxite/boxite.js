@@ -42,7 +42,6 @@ for (var i=0; i<interstitial.content.length; i++) {
         var place = block.place ? '<span class="place">'+block.place+'</span>' : "";
         var date = block.date ? '<span class="date">'+block.date+'</span>' : "";
         html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+place+link+caption+linkend+date+'</div></div></div>';
-        console.log(html)
         if (!lastwasimage)
             html = "</p>"+html;
         lastwasimage = true;

@@ -64,7 +64,7 @@ content: [
 
     "1. Move *index.js* from the hosting folder to the shared folder.\n"+
     "2. Copy the [sharable link](https://www.dropbox.com/en/help/167) for *index.js* to your clipboard.\n"+
-    "3. Open the hosting folder's *index.html* in a text-editor. Select *REPLACE_ME* on line 13 and replace it with the link from the previous step.",
+    "3. Open the hosting folder's *index.html* in a text-editor. Select *\"index.js\"* on line 13 and replace it with the link from the previous step (keeping the quote marks).",
 
     "## III. View and edit your website",
 

@@ -53,10 +53,10 @@ content: [
     "## I. Create folders",
 
     "1. Create a new folder in your Dropbox \"Public\" folder. We'll call this your \"hosting\" folder.\n"+
-    "    * If you don't have a \"Public\" folder, you can use [KISSr](https://www.kissr.com/) to create a single domain for free.\n"+
-    "      * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n"+
-    "    * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n"+
-    "    * Delete the default files provided by KISSr.\n"+
+    "  * If you don't have a \"Public\" folder, you can use [KISSr](https://www.kissr.com/) to create a single domain for free.\n"+
+    "    * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n"+
+    "  * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n"+
+    "  * Delete the default files provided by KISSr.\n"+
     "2. [Download Boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place its contents (*index.html*, *index.js*, and a folder named *boxite*) into the hosting folder.\n"+
     "3. Elsewhere in Dropbox, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.",
 

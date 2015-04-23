@@ -3,7 +3,7 @@ window.boxite = {}
 window.boxite.compile = function(interstitial) {
 $(window).ready(function() {
 
-console.log(interstitial);
+marked.setOptions({smartypants: true});
 
 var newlines = / *\n */g;
 var paragraphs = /\n *\n/g;
@@ -23,22 +23,28 @@ if (interstitial.header.whitegradient) {
     $("#title").addClass("white");
 }
 
-var lastwasimage = false;
+var lastwasimage = null;
 for (var i=0; i<interstitial.content.length; i++) {
     var block = interstitial.content[i];
     var html = "";
 
     if ($.type(block) === "string") {
             html = marked(block);
-            if (lastwasimage)
+            if (!lastwasimage === null)
                 html = "<p>"+html;
             lastwasimage = false;
     } else if ("image" in block) {
         var height = block.height ? "height: "+block.height+"; " : "";
-        var white = block.whitegradient ? "white " : "";
+        var caption = block.caption ? '<strong><span class="caption">'+block.caption+'</span></strong>' : "";
+        var overlay = block.overlay ? block.overlay : "gradient";
+        var link = block.link ? '<a href="'+block.link+'">' : "";
+        var linkend = block.link ? '</a>' : "";
         var place = block.place ? '<span class="place">'+block.place+'</span>' : "";
         var date = block.date ? '<span class="date">'+block.date+'</span>' : "";
-        html = '<div class="'+white+'project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+white+'gradient"><div class="project-inner">'+place+block.caption+date+'</div></div></div>';
+        html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+place+link+caption+linkend+date+'</div></div></div>';
+        console.log(html)
+        if (!lastwasimage)
+            html = "</p>"+html;
         lastwasimage = true;
     } else {
         console.log("Unknown object:");

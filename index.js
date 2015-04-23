@@ -2,11 +2,74 @@ boxite.compile({
 
 header: {
   title: "boxite",
-  image: "https://www.dropbox.com/sh/y2qcnz62r75jei5/AACy4ASq9t9VaQs0Wwg9Zhw8a/draft.jpg?dl=1",
-  whitegradient: true
+  image: "https://www.dropbox.com/s/2pz926ljzz32b9m/IMG_4893.JPG?dl=1",
 },
 
 content: [
 
-    "# collaborative project documentation\n\nBoxite separates the editing and hosting of your group's website, while keeping you in complete control of both.\n\nEdit your site wherever it's convenient to collaborate, such as  on Dropbox, on Github, or in an MIT group locker; the hosted version (which can be hosted anywhere) will update as fast as you edit.\n\nThis site is written in boxite; changing it as as easy as [editing this file]().\n\n# Features\n\n  * Requires no new website accounts\n  * Edit without coding\n  * Upload and caption new photos easily\n  * [Markdown](http://daringfireball.net/projects/markdown/syntax) support in text blocks\n  * Mobile-friendly design\n  * Compiles to a static website (see below)\n\n# Coming attractions\n\n  * Nav links (header and \"back to top\")\n  * Complete [Markdown](http://daringfireball.net/projects/markdown/syntax) support\n  * Slideshows\n  * Formats for listing team members\n  * Smart / double-buffered updates\n\n# Example Sites\n\n  {PEN}\n\n  {Puffin}\n\n  # Installation into Dropbox\n\n  1. Create a new folder in your Dropbox's \"Public\" folder. We'll call this your \"hosting\" folder.\n  2. [Download boxite]() and place the `boxite` folder into the hosting folder.\n  3. Elsewhere in your Dropbox folder, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.\n  4. Move the `index.js` file from the hosting folder into the shared folder.\n  5. Copy the [sharable URL](https://www.dropbox.com/en/help/167) for this `index.js` file to your clipboard.\n  6. Open the `index.html` file in the hosting folder. Select `REPLACE_ME` on line 12 and replace it with the sharable URL from step 5.\n  7. Open the [public link](https://www.dropbox.com/en/help/16) to your hosting folder in the web browser.\n  8. Try editing the `index.js` file and reloading the page; your changes should appear immediately.\n\n\n  # Other installations\n\n  The above steps use Dropbox for both hosting and editing the site, while the project page for boxite uses Github for both. You can use any group- and web-accessible location for editing and any web-accessible location for hosting.\n\n\n  # Compiling to a static site\n\n  To make your Boxite page load faster, you can \"compile\" it. To do this, open your website in a browser and open the development console. Right-click on the \"HTML\" element, select \"edit as HTML\", and then select all the text. Save it over your current \"index.html\" file.\n\n{Firefox console / key command}\n\n{Chrome console / key command}"
+    "# put your project online",
+
+    "Boxite lets you edit your site wherever it's *convenient to collaborate* (Dropbox, Github, an MIT group locker).",
+
+    "The website's *hosting is separate from editing*: you can host anywhere, and the site will update instantly.",
+
+    "This site is written in boxite; changing it as as easy as [editing a file like this one](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js).",
+
+
+    "# Features",
+
+    "* Needs no new accounts\n* Edit without coding\n* Upload and caption new photos easily\n* [Markdown](http://daringfireball.net/projects/markdown/syntax) support in text blocks\n* Mobile-friendly design\n* Compiles to a static website (see below)",
+
+
+    "# Coming attractions",
+
+    "* Nav links (in the header and \"back to top\")\n* Slideshows\n* Template for listing team members\n* Smart diffs\n* Double-buffered updates",
+
+
+    "# Example Sites",
+
+    {
+      image: "https://www.dropbox.com/sh/vtwtm7iefplbx21/AADWhjzxWO99Lc6ujWCwD-E3a/header.jpg?dl=1",
+      link: "http://pen.atu.red",
+      caption: 'Practical Education Network',
+      place: "Ghana",
+      date: "2009 to present"
+    },
+
+    {
+      image: "https://www.dropbox.com/sh/y2qcnz62r75jei5/AACy4ASq9t9VaQs0Wwg9Zhw8a/draft.jpg?dl=1",
+      overlay: "white gradient",
+      link: "http://puff.atu.red",
+      caption: 'Puffin Joystick',
+      place: "MIT",
+      date: "2015 to present"
+    },
+
+
+    "# Installation into Dropbox",
+
+    "1. Create a new folder in your Dropbox \"Public\" folder. We'll call this your \"hosting\" folder.\n    * If you don't have a \"Public\" folder, you can use [KISSr](https://www.kissr.com/) to create a single domain for free.\n      * [Github Pages](https://pages.github.com/) is better and cheaper for custom domains and multiple sites; see \"other installations\", below.\n    * Your hosting folder will then be at *Dropbox > Apps > KISSr > (your chosen domain name)*.\n    * Delete the default files provided by KISSr.\n  2. [Download boxite](https://github.com/bqpd/boxite/archive/gh-pages.zip) and place the contents of the *boxite* folder (*index.html*, *index.js*, and a folder called *boxite*) into the hosting folder.\n  3. Elsewhere in Dropbox, create a folder that's [shared with your team](https://www.dropbox.com/help/19?path=sharing_files_and_folders). We'll call this the \"shared\" folder.\n  4. Move *index.js* from the hosting folder to the shared folder.\n  5. Copy the [sharable link](https://www.dropbox.com/en/help/167) for *index.js* to your clipboard.\n  6. Open the hosting folder's *index.html* in a text-editor. Select *REPLACE_ME* on line 13 and replace it with the link from step 5.",
+
+    "Open the [public link](https://www.dropbox.com/en/help/16) to your hosting folder in the web browser. Try editing the *index.js* file and reloading the page; your changes should appear immediately.",
+
+
+    "# Other installations",
+
+    "The above steps use Dropbox for both hosting and editing the site, while the project page for boxite uses Github for both. You can use any group- and web-accessible location for editing and any web-accessible location for hosting.",
+
+
+    "# Compiling to a static site",
+
+    "To make your Boxite page load faster, you can \"compile\" it. To do this, go to your website and open your browser's [developer console](http://wickedlysmart.com/hfjsconsole/). Right-click on the *html* element, select *Copy* or *Copy Outer HTML* (see screenshots below), and then save that as your *index.html*.",
+
+    {
+      image: "https://www.dropbox.com/s/b5g15yzhkru94pw/chrom_compile.png?dl=1",
+      caption: 'Chrome',
+      overlay: "white gradient"
+    },
+
+    {
+      image: "https://www.dropbox.com/s/bbt0diooog9fx01/ff_compile.png?dl=1",
+      caption: 'Firefox',
+    },
 ]})

@@ -67,7 +67,7 @@ content: [
     "## III. View and edit your website",
 
     "1. Open the [public link](https://www.dropbox.com/en/help/16) to your hosting folder in the web browser.\n"+
-    "2. Edit the *index.js* file.\n"+
+    "2. Edit the *index.js* file in the shared folder.\n"+
     "3. Reload the page; your changes should appear immediately.",
 
 

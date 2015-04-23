@@ -11,9 +11,9 @@ content: [
 
     "Boxite lets you edit your site wherever it's *convenient to collaborate* (Dropbox, Github, an MIT group locker).",
 
-    "The website's *hosting is separate from editing*: you can host anywhere, and the site will update instantly.",
+    "Boxite *separates a website's hosting and editing*: you can be hosting anywhere, make some changes in a shared folder, and the site will update instantly.",
 
-    "This site is written in Boxite; changing it as as easy as [editing a file like this one](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js).",
+    "This site is written in Boxite; changing it is *[as easy as editing this file](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js)*.",
 
     "Boxite is *free and open source software*. [Get the code](https://github.com/bqpd/boxite/), or read on for install instructions.",
 

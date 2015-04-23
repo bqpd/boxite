@@ -26,7 +26,7 @@ content: [
     "* Nav links (in the header and \"back to top\")\n* Slideshows\n* Template for listing team members\n* Smart diffs\n* Double-buffered updates",
 
 
-    "# Example Sites",
+    "# Example boxite sites",
 
     {
       image: "https://www.dropbox.com/sh/vtwtm7iefplbx21/AADWhjzxWO99Lc6ujWCwD-E3a/header.jpg?dl=1",

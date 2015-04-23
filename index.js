@@ -9,13 +9,13 @@ content: [
 
 "# **put your project online**",
 
-"Boxite lets you edit your site wherever it's *convenient to collaborate* (Dropbox, Github, an MIT group locker).",
+"Boxite lets your team build a *portfolio, process, or documentation site* as part of your work, instead of as a final (and often-skipped) step.",
 
-"Boxite *separates a website's hosting and editing*: you can be hosting anywhere, make some changes in a shared folder, and the site will update instantly.",
+"Boxite *separates a website's hosting and editing* so that you can host anywhere, make changes in a shared folder (such as Dropbox), and see your site instantly update.",
 
-"This site is written in Boxite; changing it is *[as easy as editing this file](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js)*.",
+"This site is written in Boxite, so changing it is *[as easy as editing this file](https://raw.githubusercontent.com/bqpd/boxite/gh-pages/index.js)*.",
 
-"Boxite is *free and open source software*. [See the code](https://github.com/bqpd/boxite/), or read on for install instructions.",
+"Boxite is *free and open source software*. <br> [See the code](https://github.com/bqpd/boxite/), or read on for install instructions.",
 
 
 "# Features",

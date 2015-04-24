@@ -46,7 +46,7 @@ content: [
 },
 { image: "https://www.dropbox.com/sh/y2qcnz62r75jei5/AACy4ASq9t9VaQs0Wwg9Zhw8a/draft.jpg?dl=1",
   overlay: "white gradient",
-  caption: '[Puffin Joystick](http://puff.atu.red)',
+  caption: '[Puffin Joystick](http://puffinsip.com)',
   place: "MIT",
   date: "2015 to present"
 },

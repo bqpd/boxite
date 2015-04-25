@@ -2,7 +2,7 @@ body { overflow-x: hidden;
        font-family: Junction;
        font-size: 1.25em;
        font-weight: 300;
-       line-height: 1.5; }
+       line-height: 1.6; }
 
 em { font-weight: 400;
      font-style: normal; }
@@ -34,7 +34,8 @@ a { color: inherit;
        .project-inner a { border-bottom: 2px solid; }
 .white .project-inner a { border-bottom: 2px solid; }
 
-a:hover { color: #2eabe2; }
+a:hover { padding-top: 0.25em;
+          background-color: rgba(46,171,226,0.6); }
 
 .gradient { height: 100%;
             color: white;
@@ -65,11 +66,11 @@ rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 66%, rgba(255,255,255,0.225) 75%, 
         background: white;
         padding-right: 0.5em; }
 
-#content { max-width: 28em;
+#content { max-width: 36em;
            margin: 0 auto;
            padding-top: 1em;
-           padding-right: 1.5em;
-           padding-left: 1.5em;
+           padding-right: 3em;
+           padding-left: 3em;
            padding-bottom: 0;}
 
 hr { height: 0.5em;
@@ -79,12 +80,12 @@ hr { height: 0.5em;
      margin-top: 0.5em;
      background: black; }
 
-#overlay { height: 28em;
+#lens { height: 28em;
         width: 100%;
         padding-right: 0.5em; }
 
 #title { height: 3em;
-         width: 9.333em;
+         width: 12em;
          max-width: 90%;
          font-size: 3em;
          font-weight: 700;
@@ -93,8 +94,8 @@ hr { height: 0.5em;
          margin: 0 auto;
          padding-top: 6.25em;
          padding-bottom: 0.333em;
-         padding-left: 0.333em;
-         padding-right: 0.333em; }
+         padding-left: 1em;
+         padding-right: 1em; }
 
 #title.white { color: black; }
 
@@ -139,10 +140,15 @@ hr { height: 0.5em;
          padding-right: 0.5em; } /* changed from 0.3 */
 
 @media only screen and (min-width: 320px) and (max-width: 640px) {
-    #content { max-width: 42em; }
+    #content { max-width: 42em;
+               padding-right: 1em;
+               padding-left: 1em; }
     hr { margin-left: -1.5em;
          padding-left: 3.5em; }
     #title { width: 14em;
-             padding-top: 4.125em; }
-    #overlay { height: 22em; }
-    #header { height: 22em; }                                     }
+             padding-top: 4.125em;
+             padding-left: 0.333em;
+             padding-right: 0.333em; }
+    #lens { height: 22em; }
+    #header { height: 22em; }
+}

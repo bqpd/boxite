@@ -44,7 +44,7 @@ content: [
   place: "Ghana",
   date: "2009 to present"
 },
-{ image: "https://www.dropbox.com/sh/y2qcnz62r75jei5/AACy4ASq9t9VaQs0Wwg9Zhw8a/draft.jpg?dl=1",
+{ image: "https://www.dropbox.com/s/zs8za4se9ry5xvr/draft.jpg?dl=1",
   overlay: "white gradient",
   caption: '[Puffin Joystick](http://puffinsip.com)',
   place: "MIT",

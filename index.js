@@ -31,6 +31,7 @@ content: [
 "# Coming attractions",
 
 "* Nav links (in the header and \"back to top\")\n"+
+"* LaTeX support\n"+
 "* Simple slideshow template\n"+
 "* Template for listing team members\n"+
 "  * With homepage links we'd form a distributed project network\n"+

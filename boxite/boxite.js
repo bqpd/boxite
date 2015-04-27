@@ -18,10 +18,7 @@ header_title += title.replace(newlines, "<br>");
 window.document.title = title;
 $("#title").html(header_title);
 $("#header").attr({style: "background-image: url("+interstitial.header.image+")"})
-if (interstitial.header.whitegradient) {
-    $("#overlay").addClass("white");
-    $("#title").addClass("white");
-}
+$("#overlay").addClass(interstitial.header.overlay ? interstitial.header.overlay : "black gradient");
 
 $("#content").html("");
 
@@ -42,7 +39,7 @@ for (var i=0; i<interstitial.content.length; i++) {
     } else if ("image" in block) {
         var height = block.height ? "height: "+block.height+"; " : "";
         var caption = block.caption ? '<strong><span class="caption">'+marked(block.caption).slice(3,-5)+'</span></strong>' : "";
-        var overlay = block.overlay ? block.overlay : "gradient";
+        var overlay = block.overlay ? block.overlay : "black gradient";
         var place = block.place ? '<span class="place">'+block.place+'</span>' : "";
         var date = block.date ? '<span class="date">'+block.date+'</span>' : "";
         html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+place+caption+date+'</div></div></div>';

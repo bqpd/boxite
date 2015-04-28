@@ -129,19 +129,18 @@ hr { height: 0.5em;
                  padding-right: 2em;
                  padding-bottom: 0.75em; }
 
-.date::before { content: " / ";
-                font-weight: 400;
-                font-size: 1em;
-                padding-left: 0.375em;
-                padding-right: 0.125em; }
 
-.date { font-weight: 400;
-        font-size: 0.66em; }
+.meta { margin-bottom: -0.5em; }
+
+.date { font-weight: 700;
+        font-size: 0.66em;
+        line-height: 2.4; }
 
 .place { font-weight: 400;
          font-size: 0.75em;
+         padding-right: 0.5em;
          text-transform: uppercase;
-         padding-right: 0.5em; } /* changed from 0.3 */
+         line-height: 2.13; }
 
 @media only screen and (max-width: 640px) {
     #content { max-width: 42em;

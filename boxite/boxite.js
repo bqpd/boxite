@@ -42,7 +42,8 @@ for (var i=0; i<interstitial.content.length; i++) {
         var overlay = block.overlay ? block.overlay : "black gradient";
         var place = block.place ? '<span class="place">'+block.place+'</span>' : "";
         var date = block.date ? '<span class="date">'+block.date+'</span>' : "";
-        html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+place+caption+date+'</div></div></div>';
+        var meta = (place || date) ? '<div class="meta">'+place+date+'</div>' : "";
+        html = '<div class="project-outer" style="'+height+'background-image: url('+block.image+');"><div class="'+overlay+'"><div class="project-inner">'+caption+meta+'</div></div></div>';
         if (!lastwasimage)
             html = "</p>"+html;
         lastwasimage = true;

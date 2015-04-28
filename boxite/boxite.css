@@ -156,3 +156,10 @@ hr { height: 0.5em;
     #header { height: 22em; }
     #overlay { height: 22em; }
 }
+
+@media only screen and (max-height: 450px) {
+    #title { padding-top: 1.625em; }
+    #header { height: 14em; }
+    #overlay { height: 14em; }
+    .project-outer { height: 20em; }
+}
